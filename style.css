@@ -1,0 +1,40 @@
+.header{
+    background-color:#000000;
+}
+.header .titulo h1{
+    color:#9DB4C0 ;
+    display: flex;
+    justify-content: center;
+}
+.header .barrraNavegacion ,nav .nav-item .nav-link{
+    color: #134074;
+}
+.musicos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+footer{
+    background-color:   #474242 ;
+}
+.footer footer form{
+    width: 40%;
+    color: white;
+    margin-right: 15px;
+}
+.footer footer .telefono a{
+    color: white;
+}
+.footer footer form button {
+    background-color: gray ;
+    border: #134074;
+}
+.footer footer button:hover {
+background-color: gold;
+}
+.redes a img{
+    width: 25px;
+    display: flex;
+}
